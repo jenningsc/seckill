@@ -1,0 +1,13 @@
+spring:
+  datasource:
+      name: test
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://111.231.220.108:3306/seckill
+      username: SXzas81M
+      password: w5wfHpYap5Wl
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.winter.model
+  configuration:
+    mapUnderscoreToCamelCase: true
